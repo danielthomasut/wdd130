@@ -15,6 +15,7 @@ main section{
 }
 #background {
     height: 725px;
+    background-color: olive;
 }
 body {
     background-color: #fcfbfb; 
@@ -37,7 +38,31 @@ nav a {
     color: #fcfbfb;
     text-decoration: none;
 } 
+
+a{
+    color: brown;
+}
 .rapids-card {
     
     text-align: center; 
+}
+
+h1 {
+    color: brown;
+}
+
+h2{
+    color: brown;
+}
+
+h3{
+    color: brown;
+}
+
+h4{
+    color: brown;
+}
+
+.icons{
+    justify-content: center;
 }
