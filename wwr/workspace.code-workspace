@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\..\\.vscode"
+		},
+		{
+			"path": "..\\..\\..\\..\\New folder"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wdd130",
+		"workbench.editor.decorations.colors": false,
+		"workbench.colorTheme": "Solarized Dark"
+	}
+}
