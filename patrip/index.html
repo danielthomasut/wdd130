@@ -1,32 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page | PA Trips</title>`
+    <title>Home Page | PA Trips</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .container {
+          position: relative;
+          width: 50%;
+        }
+        
+        .image {
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        
+        .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: blue;
+        }
+        
+        .container:hover .overlay {
+          opacity: 1;
+        }
+        
+        .text {
+          color: white;
+          font-size: 20px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+        }
+        </style>
 </head>
+
 <body>
-    <header>
+    <div id="content">
+        <header>
 
-        <a id="#logo_link" href="index.html">
-            <img class="logo"  src="images/PAwebsitelogov1.png" alt="Dry Oar Logo" />
-        </a>
-        <nav>
+            <a id="#logo_link" href="index.html">
+                <img class="logo" src="images/PAwebsitelogov1.png" alt="Dry Oar Logo" />
+            </a>
+            <nav>
 
-            <a href="index.html">Home</a>
-            <a href="smalltowns.html">Small Towns</a>
-            <a href="food.html">Foods</a>
-        </nav>
-    </header>
-    <main>
-page content from site plan
+                <a href="index.html">Home</a>
+                <a href="smalltowns.html">Small Towns</a>
+                <a href="food.html">Foods</a>
+            </nav>
+        </header>
+        <main></main>
 
-    </main>
-    <footer>
-        <p>&copy; Daniel Thomas - WDD-130-22</p>
-        <a href="site-plan.html" target="_blank">Site Plan</a>
 
-    </footer>
+        
+            <h3>Home page</h3>
+            <p>
+                So, you have made the decision to visit the commonwealth of Pennsylvania. Smart move. The other smart
+                move
+                was
+                coming to this website as oppose to other travel websites. My name is Danny Thomas. I spent majority of
+                my
+                life
+                living in "PA (locals refer to Pennsylvania as just "PA) Sure you could go visit the top tourist
+                destinations and
+                come out with a slight experience, or you could go by my recommendations and get the full PA experience.
+                We
+                all know
+                (and love) Philadelphia. So much history, museums and major sports teams that play there. But there is
+                also
+                much to
+                do in other smaller cities and towns? This website will dive deep into those small towns and why you
+                should
+                visit
+                them. This website will also go into food. I know what you're thinking! Cheesesteaks! Check out my food
+                recommendations page and you'll see my top picks for the best cheesesteaks. Surprise! None of them are
+                in
+                Philly.
+                For all you outdoor enthusiast, this website will include some of the best camping sights that I have
+                personally
+                stayed at over and over again, and trails you should seriously consider hiking. You will fit right in PA
+                by
+                using my
+                website and not look like a lost tourist using others.
+            </p>
+            
+            <div class="container">
+                <img src="images/love.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">Welcome to the commonwealth of Pennsylvania</div>
+                </div>
+              </div>
+            <img src="images/PAUSAflag.jpg" alt="image for homepage">
+
+            <img src="images/countrybarn.jpg" alt="image for homepage">
+        </main>
+        <footer>
+            <p>&copy; Daniel Thomas - WDD-130-22</p>
+            <a href="site-plan.html" target="_blank">Site Plan</a>
+
+        </footer>
+
+    </div>
 </body>
+
 </html>
