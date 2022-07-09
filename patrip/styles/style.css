@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap');
 
 body {
-    font-family: Rubik, sans-serif;
-    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: blue; 
 }
 
 #content {
@@ -24,4 +25,11 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    border:5px solid black;
 }
