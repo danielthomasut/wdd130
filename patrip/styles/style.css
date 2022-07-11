@@ -2,8 +2,15 @@
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 24px;
-    color: blue; 
+    font-size: 30px;
+    color: black; 
+}
+#image {
+   max-width: 100%;
+   height:auto; 
+background-image: url("../images/greenvalley.jpg");background-repeat: no-repeat  
+    background-size: 100%;
+    
 }
 
 #content {
@@ -17,7 +24,8 @@ header {
 }
 
 .logo {
-    width: 100px;
+    width: 250px;
+    height: 300px;
 }
 
 nav {
