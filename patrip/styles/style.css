@@ -41,3 +41,13 @@ img{
     display:block;
     border:5px solid black;
 }
+
+#image {
+    max-width: 100%;
+    height:auto; 
+ background-image: url("../images/cornfield.jpg");background-repeat: no-repeat  
+     background-size: 100%;
+     
+ }
+
+ body#food.html {background-image: url(cornfield.jpg);}
