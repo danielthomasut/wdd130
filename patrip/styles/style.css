@@ -2,6 +2,10 @@
 
 
 <style>
+mark { 
+    background-color: ;
+    color: #6c584c;
+  }
 @font-face {
     font-family: 'Ubuntu', sans-serif;
     src: @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
@@ -12,7 +16,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-size: 35px;
-    color: black; 
+    color: #adc178; 
 }
 #image {
    max-width: 100%;
