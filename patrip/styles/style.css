@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap');
 
+
+<style>
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+    
+ }
+
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-size: 35px;
     color: black; 
 }
 #image {
@@ -21,6 +30,8 @@ background-image: url("../images/greenvalley.jpg");background-repeat: no-repeat
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    font-style: Merriweather Sans;
+
 }
 
 .logo {
@@ -34,6 +45,7 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
+
 
 img{
     margin-left: auto;
@@ -50,4 +62,4 @@ img{
      
  }
 
- body#food.html {background-image: url(cornfield.jpg);}
+ 
